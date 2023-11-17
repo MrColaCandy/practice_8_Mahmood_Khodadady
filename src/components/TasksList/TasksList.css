@@ -1,0 +1,16 @@
+.tasks-list {
+  direction: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  overflow-y: scroll;
+  height: 400px;
+  width: calc(100% + 16.5px);
+  margin-top: 16px;
+  gap: 16px;
+}
+.scroll-view {
+  width: 100%;
+  overflow: hidden;
+}

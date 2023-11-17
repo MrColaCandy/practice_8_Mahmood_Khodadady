@@ -1,0 +1,8 @@
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+  border-top: 3px solid rgba(128, 128, 128, 0.2);
+}
