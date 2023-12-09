@@ -6,6 +6,7 @@
   overflow: hidden;
   overflow-y: scroll;
   height: 400px;
+ 
   width: calc(100% + 16.5px);
   margin-top: 16px;
   gap: 16px;
@@ -13,4 +14,8 @@
 .scroll-view {
   width: 100%;
   overflow: hidden;
+}
+.dummy-div{
+  height: 50px;
+
 }

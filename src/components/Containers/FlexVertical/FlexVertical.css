@@ -1,0 +1,9 @@
+.flex-vertical
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+}

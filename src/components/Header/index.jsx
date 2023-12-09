@@ -1,10 +1,10 @@
 import React from "react";
 import "./Header.css";
-const Header = () => {
+const Header = ({tasks=[]}) => {
   return (
-    <div className="header">
+    <div  className="header">
       <div>لیست کارها</div>
-      <div>16</div>
+      <div>{tasks.length}</div>
     </div>
   );
 };
